@@ -31,3 +31,11 @@ string input = Console.ReadLine()!;
 int[] Array = GetArrayFromString(input);
 int countNum = CountPositiv(Array);
 Console.WriteLine($"Количество положительных чисел равно: {countNum}");
+{
+    int result = 0;
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
+    Console.WriteLine();
+    Console.ResetColor();
+    result = Convert.ToInt32(Console.ReadLine());
+    return result;
+}
